@@ -190,3 +190,13 @@ app_license = "MIT"
 # auth_hooks = [
 #	"item_translation.auth.validate"
 # ]
+fixtures = [
+    {"dt": "Property Setter", "filters": [
+        [
+            "name", "in", [
+                "Item-description-translatable","Item-item_name-translatable","Purchase Receipt Item-from_warehouse-hidden"
+
+            ]
+        ]
+    ]}
+]
