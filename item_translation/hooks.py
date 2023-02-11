@@ -194,7 +194,7 @@ fixtures = [
     {"dt": "Property Setter", "filters": [
         [
             "name", "in", [
-                "Item-description-translatable","Item-item_name-translatable"
+                "Item-description-translatable","Item-item_name-translatable","Purchase Receipt Item-from_warehouse-hidden"
 
             ]
         ]
